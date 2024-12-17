@@ -3,6 +3,7 @@ import { CarsService } from './cars.service';
 import { UpdateCarDto, CreateCarDto } from './dtos';
 
 @Controller('cars')
+// Esto se usa para validar que la data llegue como se espera y se señaló en los dtos
 // @UsePipes( ValidationPipe)
 export class CarsController {
 
